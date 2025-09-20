@@ -96,13 +96,16 @@ impl SuspectVersion {
         let mut dev_dependencies = BTreeMap::new();
         if let Some(deps) = &version_object.get("dependencies") {
             for (dep_key, dep_value) in deps.as_object().unwrap() {
-                dependencies.insert(dep_key.to_string(), dep_value.to_string());
+                dependencies.insert(dep_key.to_string(), dep_value.as_str().unwrap().to_string());
                 //dbg!(dep_key);
             }
         }
         if let Some(dev_deps) = &version_object.get("devDependencies") {
             for (dev_dep_key, dev_dep_value) in dev_deps.as_object().unwrap() {
-                dev_dependencies.insert(dev_dep_key.to_string(), dev_dep_value.to_string());
+                dev_dependencies.insert(
+                    dev_dep_key.to_string(),
+                    dev_dep_value.as_str().unwrap().to_string(),
+                );
                 //dbg!(dep_key);
             }
         }
