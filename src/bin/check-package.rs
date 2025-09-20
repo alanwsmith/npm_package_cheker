@@ -60,10 +60,14 @@ impl SuspectPackage {
         let mut suspect_versions = BTreeMap::new();
 
         let url = format!("https://registry.npmjs.com/{}/", package_name);
-        let overview = get_json(&url)?;
-        for (version_key, version_object) in overview.get("versions").unwrap().as_object().unwrap()
+        let package_details = get_json(&url)?;
+        for (version_key, version_object) in package_details
+            .get("versions")
+            .unwrap()
+            .as_object()
+            .unwrap()
         {
-            suspect_versions.insert(version_key.to_string(), SuspectVersion::new());
+            suspect_versions.insert(version_key.to_string(), SuspectVersion::new(version_object));
 
             // println!("Version: {}", version_key);
             // for (dep_key, deb_value) in version_object
@@ -82,21 +86,38 @@ impl SuspectPackage {
 
 #[derive(Debug)]
 struct SuspectVersion {
-    dependencies: BTreeMap<String, SuspectDependency>,
+    dependencies: BTreeMap<String, String>,
+    dev_dependencies: BTreeMap<String, String>,
 }
 
 impl SuspectVersion {
-    pub fn new() -> SuspectVersion {
+    pub fn new(version_object: &Value) -> SuspectVersion {
+        let mut dependencies = BTreeMap::new();
+        let mut dev_dependencies = BTreeMap::new();
+        if let Some(deps) = &version_object.get("dependencies") {
+            for (dep_key, dep_value) in deps.as_object().unwrap() {
+                dependencies.insert(dep_key.to_string(), dep_value.to_string());
+                //dbg!(dep_key);
+            }
+        }
+        if let Some(dev_deps) = &version_object.get("devDependencies") {
+            for (dev_dep_key, dev_dep_value) in dev_deps.as_object().unwrap() {
+                dev_dependencies.insert(dev_dep_key.to_string(), dev_dep_value.to_string());
+                //dbg!(dep_key);
+            }
+        }
+
         SuspectVersion {
-            dependencies: BTreeMap::new(),
+            dependencies,
+            dev_dependencies,
         }
     }
 }
 
-#[derive(Debug)]
-struct SuspectDependency {
-    version_number: String,
-}
+// #[derive(Debug)]
+// struct SuspectDependency {
+//     version_number: String,
+// }
 
 // impl SuspectDependency {
 //     pub fn new() -> SuspectDependency {
