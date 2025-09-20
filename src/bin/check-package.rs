@@ -184,7 +184,8 @@ fn main() -> Result<()> {
 
 fn load_back_packages() -> Result<BadPackages> {
     let mut bad_packages = BadPackages::new();
-    let input = fs::read_to_string("bad-packages.json")?;
+    //let input = fs::read_to_string("bad-packages.json")?;
+    let input = include_str!("../data/bad-packages.json");
     bad_packages.packages = serde_json::from_str(&input)?;
     Ok(bad_packages)
 }
