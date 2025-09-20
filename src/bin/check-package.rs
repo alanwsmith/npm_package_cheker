@@ -8,14 +8,45 @@ use serde_json::Value;
 use std::collections::BTreeMap;
 use std::fs;
 
-// #[derive(Debug)]
-// struct PackageToCheck {
-//     name: String,
-//     suspect_versions: Vec<SuspectVersion>,
-// }
+#[derive(Debug)]
+struct SuspectPackages {
+    packages: BTreeMap<String, SuspectPackage>,
+}
 
-// #[derive(Debug)]
-// struct SuspectVersion {}
+impl SuspectPackages {
+    pub fn new() -> SuspectPackages {
+        SuspectPackages {
+            packages: BTreeMap::new(),
+        }
+    }
+    pub fn add(&mut self, package_name: &String) {}
+}
+
+#[derive(Debug)]
+struct SuspectPackage {
+    suspect_versions: BTreeMap<String, SuspectVersion>,
+}
+
+impl SuspectPackage {
+    pub fn new() -> SuspectPackage {
+        SuspectPackage {
+            suspect_versions: BTreeMap::new(),
+        }
+    }
+}
+
+#[derive(Debug)]
+struct SuspectVersion {
+    dependencies: Vec<String>,
+}
+
+impl SuspectVersion {
+    pub fn new() -> SuspectVersion {
+        SuspectVersion {
+            dependencies: vec![],
+        }
+    }
+}
 
 #[derive(Debug)]
 struct BadPackages {
@@ -47,7 +78,7 @@ impl BadPackages {
             .date
             .as_ref()
             .unwrap();
-        Ok(DateTime::parse_from_rfc3339(&earliest_string)?)
+        Ok(DateTime::parse_from_rfc3339(earliest_string)?)
     }
 }
 
@@ -66,7 +97,9 @@ fn main() -> Result<()> {
     println!("Starting");
     let bad_packages = load_back_packages()?;
     dbg!(bad_packages.earliest_problem());
-
+    let target_package = "minify".to_string();
+    let mut suspects = SuspectPackages::new();
+    suspects.add(&target_package);
     Ok(())
 }
 
@@ -75,4 +108,15 @@ fn load_back_packages() -> Result<BadPackages> {
     let input = fs::read_to_string("bad-packages.json")?;
     bad_packages.packages = serde_json::from_str(&input)?;
     Ok(bad_packages)
+}
+
+fn get_json(url: &str) -> Result<Value> {
+    let res = reqwest::blocking::get(url)?;
+    if res.status() == 200 {
+        let body = res.text()?;
+        let data = serde_json::from_str::<Value>(&body)?;
+        Ok(data)
+    } else {
+        Err(anyhow!("Could not get JSON"))
+    }
 }
