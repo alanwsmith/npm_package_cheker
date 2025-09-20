@@ -1,28 +1,35 @@
+#![allow(unused)]
 use anyhow::Result;
 use anyhow::anyhow;
 use serde::Deserialize;
+use serde::Serialize;
 use serde_json::Value;
 use std::collections::BTreeMap;
+use std::fs;
 
-#[derive(Debug)]
+#[derive(Debug, Serialize)]
 struct SuspectPackages {
+    targets: Vec<String>,
     packages: BTreeMap<String, SuspectPackage>,
 }
 
 impl SuspectPackages {
-    pub fn new() -> SuspectPackages {
-        SuspectPackages {
+    pub fn new(targets: Vec<String>) -> Result<SuspectPackages> {
+        let mut sp = SuspectPackages {
+            targets: targets.clone(),
             packages: BTreeMap::new(),
+        };
+        for target in targets.iter() {
+            sp.add_suspect_package(target)?;
         }
+        Ok(sp)
     }
 
     pub fn add_suspect_package(&mut self, package_name: &String) -> Result<()> {
         if !self.packages.contains_key(package_name) {
             println!("Getting: {}", &package_name);
-            self.packages.insert(
-                package_name.to_string(),
-                SuspectPackage::new(&package_name)?,
-            );
+            self.packages
+                .insert(package_name.to_string(), SuspectPackage::new(package_name)?);
         } else {
             println!("Alrady have: {}", &package_name);
         }
@@ -46,7 +53,7 @@ impl SuspectPackages {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Serialize)]
 struct SuspectPackage {
     suspect_versions: BTreeMap<String, SuspectVersion>,
 }
@@ -54,7 +61,6 @@ struct SuspectPackage {
 impl SuspectPackage {
     pub fn new(package_name: &String) -> Result<SuspectPackage> {
         let mut suspect_versions = BTreeMap::new();
-
         let url = format!("https://registry.npmjs.com/{}/", package_name);
         let package_details = get_json(&url)?;
         for (version_key, version_object) in package_details
@@ -64,7 +70,6 @@ impl SuspectPackage {
             .unwrap()
         {
             suspect_versions.insert(version_key.to_string(), SuspectVersion::new(version_object));
-
             // println!("Version: {}", version_key);
             // for (dep_key, deb_value) in version_object
             //     .get("dependencies")
@@ -75,12 +80,11 @@ impl SuspectPackage {
             //     //     println!("{}", dep_key);
             // }
         }
-
         Ok(SuspectPackage { suspect_versions })
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Serialize)]
 struct SuspectVersion {
     dependencies: BTreeMap<String, String>,
     dev_dependencies: BTreeMap<String, String>,
@@ -102,7 +106,6 @@ impl SuspectVersion {
                 //dbg!(dep_key);
             }
         }
-
         SuspectVersion {
             dependencies,
             dev_dependencies,
@@ -133,7 +136,6 @@ impl BadPackages {
             packages: BTreeMap::new(),
         }
     }
-
     // TODO: Deprecated - it's not needed since just
     // pulling all versions and looking that way.
     // pub fn earliest_problem(&self) -> Result<DateTime<FixedOffset>> {
@@ -156,7 +158,6 @@ impl BadPackages {
     //         .unwrap();
     //     Ok(DateTime::parse_from_rfc3339(earliest_string)?)
     // }
-
     //
 }
 
@@ -173,12 +174,15 @@ struct Version {
 
 fn main() -> Result<()> {
     println!("Starting");
+    let targets = vec!["minify".to_string()];
     // let bad_packages = load_back_packages()?;
     //dbg!(bad_packages.earliest_problem());
-    let target_package = "minify".to_string();
-    let mut suspects = SuspectPackages::new();
-    suspects.add_suspect_package(&target_package);
-    //dbg!(&suspects);
+    //let target_package = "minify".to_string();
+    let suspects = SuspectPackages::new(targets)?;
+    //suspects.add_suspect_package(&target_package);
+    let output = serde_json::to_string_pretty(&suspects)?;
+    fs::write("package-data.json", output)?;
+    // dbg!(&suspects);
     Ok(())
 }
 
