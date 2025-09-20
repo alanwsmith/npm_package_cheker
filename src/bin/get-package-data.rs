@@ -1,12 +1,8 @@
-#![allow(unused)]
 use anyhow::Result;
 use anyhow::anyhow;
-use chrono::DateTime;
-use chrono::FixedOffset;
 use serde::Deserialize;
 use serde_json::Value;
 use std::collections::BTreeMap;
-use std::fs;
 
 #[derive(Debug)]
 struct SuspectPackages {
@@ -138,26 +134,30 @@ impl BadPackages {
         }
     }
 
-    pub fn earliest_problem(&self) -> Result<DateTime<FixedOffset>> {
-        let earliest_string = self
-            .packages
-            .iter()
-            .max_by_key(|bad_package| {
-                // This will panic if no date is available,
-                // but that's fine since it means the data isn't complete
-                DateTime::parse_from_rfc3339(
-                    bad_package.1.versions[0].date.as_ref().unwrap().as_str(),
-                )
-                .unwrap()
-            })
-            .ok_or(anyhow!("Could not get earliers"))?
-            .1
-            .versions[0]
-            .date
-            .as_ref()
-            .unwrap();
-        Ok(DateTime::parse_from_rfc3339(earliest_string)?)
-    }
+    // TODO: Deprecated - it's not needed since just
+    // pulling all versions and looking that way.
+    // pub fn earliest_problem(&self) -> Result<DateTime<FixedOffset>> {
+    //     let earliest_string = self
+    //         .packages
+    //         .iter()
+    //         .max_by_key(|bad_package| {
+    //             // This will panic if no date is available,
+    //             // but that's fine since it means the data isn't complete
+    //             DateTime::parse_from_rfc3339(
+    //                 bad_package.1.versions[0].date.as_ref().unwrap().as_str(),
+    //             )
+    //             .unwrap()
+    //         })
+    //         .ok_or(anyhow!("Could not get earliers"))?
+    //         .1
+    //         .versions[0]
+    //         .date
+    //         .as_ref()
+    //         .unwrap();
+    //     Ok(DateTime::parse_from_rfc3339(earliest_string)?)
+    // }
+
+    //
 }
 
 #[derive(Debug, Deserialize)]
@@ -178,7 +178,7 @@ fn main() -> Result<()> {
     let target_package = "minify".to_string();
     let mut suspects = SuspectPackages::new();
     suspects.add_suspect_package(&target_package);
-    dbg!(&suspects);
+    //dbg!(&suspects);
     Ok(())
 }
 
