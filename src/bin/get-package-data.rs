@@ -173,7 +173,7 @@ struct Version {
 
 fn main() -> Result<()> {
     println!("Starting");
-    let bad_packages = load_back_packages()?;
+    // let bad_packages = load_back_packages()?;
     //dbg!(bad_packages.earliest_problem());
     let target_package = "minify".to_string();
     let mut suspects = SuspectPackages::new();
@@ -182,13 +182,15 @@ fn main() -> Result<()> {
     Ok(())
 }
 
-fn load_back_packages() -> Result<BadPackages> {
-    let mut bad_packages = BadPackages::new();
-    //let input = fs::read_to_string("bad-packages.json")?;
-    let input = include_str!("../data/bad-packages.json");
-    bad_packages.packages = serde_json::from_str(&input)?;
-    Ok(bad_packages)
-}
+// TODO: Move to the other process that does
+// the check
+//fn load_back_packages() -> Result<BadPackages> {
+//    let mut bad_packages = BadPackages::new();
+//    //let input = fs::read_to_string("bad-packages.json")?;
+//    let input = include_str!("../data/bad-packages.json");
+//    bad_packages.packages = serde_json::from_str(&input)?;
+//    Ok(bad_packages)
+//}
 
 fn get_json(url: &str) -> Result<Value> {
     println!("Getting: {}", &url);
