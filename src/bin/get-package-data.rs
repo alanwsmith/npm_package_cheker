@@ -97,7 +97,6 @@ impl SuspectVersion {
         if let Some(deps) = &version_object.get("dependencies") {
             for (dep_key, dep_value) in deps.as_object().unwrap() {
                 dependencies.insert(dep_key.to_string(), dep_value.as_str().unwrap().to_string());
-                //dbg!(dep_key);
             }
         }
         if let Some(dev_deps) = &version_object.get("devDependencies") {
@@ -106,7 +105,6 @@ impl SuspectVersion {
                     dev_dep_key.to_string(),
                     dev_dep_value.as_str().unwrap().to_string(),
                 );
-                //dbg!(dep_key);
             }
         }
         SuspectVersion {
