@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# For make-json
+cargo watch -c -x 'test solo -- --nocapture && cargo test -- --nocapture && cargo clippy --bin make-json && cargo run --bin make-json'
+
