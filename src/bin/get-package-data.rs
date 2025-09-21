@@ -28,8 +28,14 @@ impl SuspectPackages {
     pub fn add_suspect_package(&mut self, package_name: &String) -> Result<()> {
         if !self.packages.contains_key(package_name) {
             println!("Getting: {}", &package_name);
+            let package_payload = SuspectPackage::new(package_name)?;
+
+            for dep in package_payload.dep_list().iter() {
+                println!("Found dependency: {}", dep);
+            }
+
             self.packages
-                .insert(package_name.to_string(), SuspectPackage::new(package_name)?);
+                .insert(package_name.to_string(), package_payload);
         } else {
             println!("Alrady have: {}", &package_name);
         }
@@ -81,6 +87,21 @@ impl SuspectPackage {
             // }
         }
         Ok(SuspectPackage { suspect_versions })
+    }
+
+    pub fn dep_list(&self) -> Vec<String> {
+        let mut return_deps = vec![];
+        for (_, version_data) in self.suspect_versions.iter() {
+            for (dep, _) in version_data.dependencies.iter() {
+                return_deps.push(dep.to_string());
+            }
+        }
+        for (_, version_data) in self.suspect_versions.iter() {
+            for (dev_dep, _) in version_data.dev_dependencies.iter() {
+                return_deps.push(dev_dep.to_string());
+            }
+        }
+        return_deps
     }
 }
 
