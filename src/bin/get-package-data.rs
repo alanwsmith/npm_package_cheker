@@ -29,13 +29,12 @@ impl SuspectPackages {
         if !self.packages.contains_key(package_name) {
             println!("Getting: {}", &package_name);
             let package_payload = SuspectPackage::new(package_name)?;
-
-            for dep in package_payload.dep_list().iter() {
-                println!("Found dependency: {}", dep);
-            }
-
             self.packages
-                .insert(package_name.to_string(), package_payload);
+                .insert(package_name.to_string(), package_payload.clone());
+            for dep in package_payload.dep_list().iter() {
+                &self.add_suspect_package(dep);
+                // println!("Found dependency: {}", dep.to_string());
+            }
         } else {
             println!("Alrady have: {}", &package_name);
         }
@@ -59,7 +58,7 @@ impl SuspectPackages {
     }
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Clone, Debug, Serialize)]
 struct SuspectPackage {
     suspect_versions: BTreeMap<String, SuspectVersion>,
 }
@@ -69,22 +68,20 @@ impl SuspectPackage {
         let mut suspect_versions = BTreeMap::new();
         let url = format!("https://registry.npmjs.com/{}/", package_name);
         let package_details = get_json(&url)?;
-        for (version_key, version_object) in package_details
-            .get("versions")
-            .unwrap()
-            .as_object()
-            .unwrap()
-        {
-            suspect_versions.insert(version_key.to_string(), SuspectVersion::new(version_object));
-            // println!("Version: {}", version_key);
-            // for (dep_key, deb_value) in version_object
-            //     .get("dependencies")
-            //     .unwrap()
-            //     .as_object()
-            //     .unwrap()
-            // {
-            //     //     println!("{}", dep_key);
-            // }
+        if let Some(obj) = package_details.get("versions") {
+            for (version_key, version_object) in obj.as_object().unwrap() {
+                suspect_versions
+                    .insert(version_key.to_string(), SuspectVersion::new(version_object));
+                // println!("Version: {}", version_key);
+                // for (dep_key, deb_value) in version_object
+                //     .get("dependencies")
+                //     .unwrap()
+                //     .as_object()
+                //     .unwrap()
+                // {
+                //     //     println!("{}", dep_key);
+                // }
+            }
         }
         Ok(SuspectPackage { suspect_versions })
     }
@@ -105,7 +102,7 @@ impl SuspectPackage {
     }
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Clone, Debug, Serialize)]
 struct SuspectVersion {
     dependencies: BTreeMap<String, String>,
     dev_dependencies: BTreeMap<String, String>,
@@ -195,16 +192,13 @@ struct Version {
 }
 
 fn main() -> Result<()> {
-    println!("Starting");
-    let targets = vec!["minify".to_string()];
-    // let bad_packages = load_back_packages()?;
-    //dbg!(bad_packages.earliest_problem());
-    //let target_package = "minify".to_string();
-    let suspects = SuspectPackages::new(targets)?;
-    //suspects.add_suspect_package(&target_package);
-    let output = serde_json::to_string_pretty(&suspects)?;
-    fs::write("package-data.json", output)?;
-    // dbg!(&suspects);
+    println!(
+        "This one got stuck in a loop for react-dom-17 and seemd to keep going more than expacted. TODO is to dig into it a little more"
+    );
+    // let targets = vec!["minify".to_string()];
+    // let suspects = SuspectPackages::new(targets)?;
+    // let output = serde_json::to_string_pretty(&suspects)?;
+    // fs::write("package-data.json", output)?;
     Ok(())
 }
 
