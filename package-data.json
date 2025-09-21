@@ -1,0 +1,3074 @@
+{
+  "targets": [
+    "minify"
+  ],
+  "packages": {
+    "minify": {
+      "suspect_versions": {
+        "0.1.0": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.1": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.2": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.3": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.4": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.5": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.6": {
+          "dependencies": {
+            "clean-css": "0.4.0",
+            "css-b64-images": "0.2.0",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.3"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.7": {
+          "dependencies": {
+            "clean-css": "0.6.0",
+            "css-b64-images": "0.2.1",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.3"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.8": {
+          "dependencies": {
+            "clean-css": "0.8.2",
+            "css-b64-images": "0.2.1",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.4"
+          },
+          "dev_dependencies": {}
+        },
+        "0.1.9": {
+          "dependencies": {
+            "clean-css": "0.10.0",
+            "css-b64-images": "0.2.2",
+            "html-minifier": "0.4.5",
+            "uglify-js": "1.3.4"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.0": {
+          "dependencies": {
+            "clean-css": "1.0.1",
+            "css-b64-images": "0.2.3",
+            "html-minifier": "0.5.0",
+            "uglify-js": "2.2.5"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.1": {
+          "dependencies": {
+            "clean-css": "1.0.12",
+            "css-b64-images": "0.2.3",
+            "html-minifier": "0.5.2",
+            "uglify-js": "2.3.6"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.2": {
+          "dependencies": {
+            "clean-css": "1.1.2",
+            "css-b64-images": "0.2.3",
+            "html-minifier": "0.5.4",
+            "uglify-js": "2.4.0"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.3": {
+          "dependencies": {
+            "clean-css": "2.0.x",
+            "css-b64-images": "0.2.3",
+            "html-minifier": "0.5.4",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.4": {
+          "dependencies": {
+            "clean-css": "2.0.x",
+            "css-b64-images": "0.2.3",
+            "html-minifier": "0.5.4",
+            "uglify-js": "2.4.7"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.5": {
+          "dependencies": {
+            "clean-css": "2.0.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "uglify-js": "2.4.x",
+            "util.io": "0.7.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.2.6": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.3.0": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.3.1": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.3.5",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.3.2": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.3.5",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.3.3": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.3.5",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.3.4": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.4.0",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.4.0": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.4.0",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.4.1": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.4.0",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.5.0": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.4.0",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.5.1": {
+          "dependencies": {
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "0.5.x",
+            "mkdirp": "~0.4.0",
+            "uglify-js": "2.4.x",
+            "util.io": "0.8.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.6.0": {
+          "dependencies": {
+            "cheerio": "0.16.x",
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "entities": "1.1.1",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util.io": "1.0.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.6.1": {
+          "dependencies": {
+            "cheerio": "0.16.x",
+            "clean-css": "2.1.x",
+            "css-b64-images": "0.2.x",
+            "entities": "1.1.1",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util.io": "1.1.x"
+          },
+          "dev_dependencies": {}
+        },
+        "0.6.2": {
+          "dependencies": {
+            "cheerio": "~0.17.x",
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.6.x"
+          }
+        },
+        "0.6.3": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.6.x"
+          }
+        },
+        "0.6.4": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.6.x"
+          }
+        },
+        "0.7.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.7.1": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.8.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.8.1": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.8.2": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "1.2.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.8.3": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.2.4"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.8.4": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.2.4"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "0.9.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.2.4"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "1.0.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.0.1",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.2.4"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "1.0.1": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.0.1",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.2.4"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "1.0.10": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.11": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.12": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.13": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.2": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.0.1",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.3.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.7.1"
+          }
+        },
+        "1.0.3": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.3.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.4": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.5": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.6": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.7": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.8": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.0.9": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "0.2.x",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "pipe-io": "~0.9.4",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.4.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.1.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.2.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.0": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.1": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.2": {
+          "dependencies": {
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.3": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.4": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.5": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "ischanged": "~1.0.1",
+            "mkdirp": "~0.5.x",
+            "ponse": "~1.2.0",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.3.6": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "ponse": "~1.2.0",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.0": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.1": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x",
+            "util-io": "~1.6.0"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.10": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.1.5",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "1.4.11": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.2.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.10.0"
+          }
+        },
+        "1.4.12": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.2.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.10.0"
+          }
+        },
+        "1.4.13": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.2.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.10.0"
+          }
+        },
+        "1.4.14": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.15": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.16": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.17": {
+          "dependencies": {
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.18": {
+          "dependencies": {
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.19": {
+          "dependencies": {
+            "clean-css": "~3.3.0",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.2": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.20": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.7.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.21": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.8.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.22": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~0.8.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.5.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.23": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.0.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.5.0"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.9.0",
+            "gulp-jshint": "^1.10.0"
+          }
+        },
+        "1.4.3": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "2.2.x",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.4": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "changelog-io": "~1.2.1",
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.8.4"
+          }
+        },
+        "1.4.5": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "1.4.6": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "1.4.7": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.0.1",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "1.4.8": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "1.4.9": {
+          "dependencies": {
+            "checkup": "~1.0.2",
+            "clean-css": "~3.1.5",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.1.0",
+            "execon": "~1.1.0",
+            "html-minifier": "~0.6.x",
+            "rendy": "~1.0.2",
+            "tomas": "~1.0.0",
+            "uglify-js": "2.4.x"
+          },
+          "dev_dependencies": {
+            "gulp": "~3.8.x",
+            "gulp-jshint": "~1.9.0"
+          }
+        },
+        "10.0.0": {
+          "dependencies": {
+            "@putout/minify": "^1.0.4",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^15.6.1",
+            "eslint-plugin-putout": "^17.5.1",
+            "madrun": "^9.0.3",
+            "putout": "^29.4.1",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.1.0": {
+          "dependencies": {
+            "@putout/minify": "^1.0.4",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "file-type": "^18.4.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^17.5.1",
+            "madrun": "^9.0.3",
+            "putout": "^29.4.1",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.2.0": {
+          "dependencies": {
+            "@putout/minify": "^1.0.4",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "file-type": "^18.4.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^17.5.1",
+            "madrun": "^9.0.3",
+            "putout": "^29.4.1",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.3.0": {
+          "dependencies": {
+            "@putout/minify": "^1.0.4",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^18.2.0",
+            "madrun": "^9.0.3",
+            "putout": "^30.4.1",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.4.0": {
+          "dependencies": {
+            "@putout/minify": "^2.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^19.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^31.7.0",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.5.0": {
+          "dependencies": {
+            "@putout/minify": "^2.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^19.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^31.7.0",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.5.1": {
+          "dependencies": {
+            "@putout/minify": "^2.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^19.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^31.7.0",
+            "supertape": "^8.2.0"
+          }
+        },
+        "10.5.2": {
+          "dependencies": {
+            "@putout/minify": "^2.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^3.2.3",
+            "eslint": "^8.48.0",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^19.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^31.7.0",
+            "supertape": "^8.2.0"
+          }
+        },
+        "11.0.0": {
+          "dependencies": {
+            "@putout/minify": "^3.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^8.48.0",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^21.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^34.0.0",
+            "supertape": "^8.2.0"
+          }
+        },
+        "11.0.1": {
+          "dependencies": {
+            "@putout/minify": "^3.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^8.48.0",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^34.0.0",
+            "supertape": "^9.0.0"
+          }
+        },
+        "11.1.0": {
+          "dependencies": {
+            "@putout/minify": "^3.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^8.48.0",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^9.0.0"
+          }
+        },
+        "11.1.1": {
+          "dependencies": {
+            "@putout/minify": "^3.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^8.48.0",
+            "eslint-plugin-n": "^16.0.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^9.0.0"
+          }
+        },
+        "11.2.0": {
+          "dependencies": {
+            "@putout/minify": "^3.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "11.2.1": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "11.3.0": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.23.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "11.4.0": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.23.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^22.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^35.5.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "11.4.1": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.23.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^23.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^36.5.1",
+            "supertape": "^10.6.0"
+          }
+        },
+        "12.0.0": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.24.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "lightningcss": "^1.28.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^23.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^36.5.1",
+            "supertape": "^10.6.0"
+          }
+        },
+        "12.0.1": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.24.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "lightningcss": "^1.28.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^23.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^37.8.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "12.1.0": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.24.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "lightningcss": "^1.28.1",
+            "montag": "^1.2.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^23.1.0",
+            "madrun": "^10.0.0",
+            "putout": "^37.8.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "13.0.0": {
+          "dependencies": {
+            "@putout/minify": "^4.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.24.0",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "lightningcss": "^1.28.1",
+            "montag": "^1.2.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^24.0.0",
+            "madrun": "^10.0.0",
+            "putout": "^38.0.2",
+            "supertape": "^10.6.0"
+          }
+        },
+        "14.0.0": {
+          "dependencies": {
+            "@putout/minify": "^5.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.25.1",
+            "find-up": "^7.0.0",
+            "html-minifier-terser": "^7.1.0",
+            "lightningcss": "^1.28.1",
+            "montag": "^1.2.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^26.1.0",
+            "madrun": "^11.0.0",
+            "putout": "^39.0.11",
+            "supertape": "^11.0.3"
+          }
+        },
+        "14.1.0": {
+          "dependencies": {
+            "@putout/minify": "^5.0.0",
+            "@swc/core": "^1.6.7",
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "esbuild": "^0.25.1",
+            "find-up": "^7.0.0",
+            "html-minifier-next": "^1.1.4",
+            "lightningcss": "^1.28.1",
+            "montag": "^1.2.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.28.1",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^4.0.0",
+            "eslint": "^9.3.0",
+            "eslint-plugin-putout": "^27.0.0",
+            "madrun": "^11.0.0",
+            "putout": "^40.2.2",
+            "supertape": "^11.0.3"
+          }
+        },
+        "2.0.0": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.0.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.5.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.1": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.0.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.10": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~2.1.2",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^2.7.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.11": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^2.7.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.12": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^2.7.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.13": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "~1.2.0",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^2.7.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.14": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "~1.2.0",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.2": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.0.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.3": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.1.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.4": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.2.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.5": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.3.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.6": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.4.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.7": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~1.5.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^2.4.0",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.8": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~2.0.0",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.0.9": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "~2.2.0",
+            "execon": "~1.2.0",
+            "html-minifier": "~2.1.2",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "~2.6.0"
+          },
+          "dev_dependencies": {
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.0": {
+          "dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.1": {
+          "dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.2": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.3": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.4": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.5": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.6": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.7": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.3.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "rendy": "~1.1.0",
+            "tomas": "~1.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "2.1.8": {
+          "dependencies": {
+            "clean-css": "~3.4.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.6.8",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^1.0.2",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "coveralls": "^2.13.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^2.6.8",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^1.0.2",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "coveralls": "^2.13.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.1": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^3.0.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^1.0.2",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-es2015": "^6.24.1",
+            "coveralls": "^2.13.1",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.2": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^3.0.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^2.0.0",
+            "try-catch": "~1.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-env": "^1.6.0",
+            "coveralls": "^3.0.0",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.3": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^3.0.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^2.0.0",
+            "try-catch": "^2.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-env": "^1.6.0",
+            "coveralls": "^3.0.0",
+            "eslint": "^4.0.0",
+            "jscs": "^3.0.3",
+            "jshint": "^2.8.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.4": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^3.0.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^2.0.0",
+            "try-catch": "^2.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-env": "^1.6.0",
+            "coveralls": "^3.0.0",
+            "eslint": "^4.0.0",
+            "eslint-plugin-node": "^6.0.0",
+            "nyc": "^11.0.2",
+            "redrun": "^5.9.15",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "3.0.5": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^3.0.0",
+            "execon": "^1.2.9",
+            "html-minifier": "^3.0.1",
+            "tomas": "^2.0.0",
+            "try-catch": "^2.0.0",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "babel-cli": "^6.24.1",
+            "babel-preset-env": "^1.6.0",
+            "coveralls": "^3.0.0",
+            "eslint": "^4.0.0",
+            "eslint-plugin-node": "^6.0.0",
+            "nyc": "^11.0.2",
+            "redrun": "^6.0.0",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.0.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "tomas": "^2.0.0",
+            "try-to-catch": "^1.0.2",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^7.0.1",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.0.1": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "try-to-catch": "^1.0.2",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^8.0.0",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.0.2": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "try-to-catch": "^1.0.2",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^8.0.0",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.0.3": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^1.0.2",
+            "uglify-js": "^3.0.3"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^8.0.0",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.1.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "terser": "^3.10.12",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^1.0.2"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^8.0.0",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.1.1": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^3.0.1",
+            "terser": "^3.16.1",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^1.0.2"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^5.7.0",
+            "eslint-plugin-node": "^8.0.0",
+            "nyc": "^13.1.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "tape": "^4.2.2"
+          }
+        },
+        "4.1.2": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^4.0.0",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^1.0.2"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^6.0.0",
+            "eslint-plugin-node": "^9.1.0",
+            "eslint-plugin-putout": "^1.5.0",
+            "madrun": "^2.1.2",
+            "nyc": "^14.1.1",
+            "putout": "^4.32.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "supertape": "^1.2.3"
+          }
+        },
+        "4.1.3": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^4.0.0",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^1.0.2"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^6.0.0",
+            "eslint-plugin-node": "^9.1.0",
+            "eslint-plugin-putout": "^1.5.0",
+            "madrun": "^2.1.2",
+            "nyc": "^14.1.1",
+            "putout": "^4.32.0",
+            "redrun": "^7.0.2",
+            "rimraf": "^2.6.1",
+            "supertape": "^1.2.3"
+          }
+        },
+        "5.0.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^4.0.0",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^2.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^6.0.0",
+            "eslint-plugin-node": "^10.0.0",
+            "eslint-plugin-putout": "^3.0.0",
+            "madrun": "^5.0.1",
+            "nyc": "^14.1.1",
+            "putout": "^7.3.1",
+            "supertape": "^1.2.3"
+          }
+        },
+        "5.1.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^4.0.0",
+            "try-catch": "^2.0.0",
+            "try-to-catch": "^2.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^6.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^3.0.0",
+            "madrun": "^5.0.1",
+            "nyc": "^15.0.0",
+            "putout": "^7.3.1",
+            "supertape": "^1.2.3"
+          }
+        },
+        "5.1.1": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^4.0.0",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^6.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^3.0.0",
+            "madrun": "^5.0.1",
+            "nyc": "^15.0.0",
+            "putout": "^7.3.1",
+            "supertape": "^1.2.3"
+          }
+        },
+        "5.2.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier": "^4.0.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^4.0.2",
+            "madrun": "^7.0.4",
+            "nyc": "^15.0.0",
+            "putout": "^10.0.1",
+            "supertape": "^2.0.1"
+          }
+        },
+        "6.0.0": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^5.1.1",
+            "madrun": "^7.0.4",
+            "nyc": "^15.0.0",
+            "putout": "^10.0.1",
+            "supertape": "^2.0.1"
+          }
+        },
+        "6.0.1": {
+          "dependencies": {
+            "clean-css": "^4.1.6",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^5.1.1",
+            "madrun": "^7.0.4",
+            "nyc": "^15.0.0",
+            "putout": "^10.0.1",
+            "supertape": "^2.0.1"
+          }
+        },
+        "7.0.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "coveralls": "^3.0.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^7.0.2",
+            "madrun": "^8.6.4",
+            "nyc": "^15.0.0",
+            "putout": "^14.0.3",
+            "supertape": "^4.9.1"
+          }
+        },
+        "7.0.1": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^7.0.2",
+            "madrun": "^8.6.4",
+            "putout": "^15.1.1",
+            "supertape": "^4.9.1"
+          }
+        },
+        "7.0.2": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^7.0.0",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^7.0.2",
+            "madrun": "^8.6.4",
+            "putout": "^17.0.0",
+            "supertape": "^5.2.0"
+          }
+        },
+        "7.1.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^5.0.0",
+            "html-minifier-terser": "^5.1.1",
+            "terser": "^5.3.2",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "7.2.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^5.0.0",
+            "html-minifier-terser": "^5.1.1",
+            "readjson": "^2.2.2",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "7.2.1": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "7.2.2": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "8.0.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "8.0.1": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "8.0.2": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "8.0.3": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^6.0.2",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^10.1.0",
+            "madrun": "^8.6.4",
+            "putout": "^20.1.0",
+            "supertape": "^6.6.0"
+          }
+        },
+        "8.0.4": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.0.0-alpha.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "c8": "^7.5.0",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^13.11.0",
+            "madrun": "^8.6.4",
+            "putout": "^24.6.0",
+            "supertape": "^7.0.0"
+          }
+        },
+        "9.0.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.0.0-alpha.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^2.1.2",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^15.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^26.9.0",
+            "supertape": "^7.0.0"
+          }
+        },
+        "9.1.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.0.0-alpha.1",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^2.1.2",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-node": "^11.0.0",
+            "eslint-plugin-putout": "^15.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^26.9.0",
+            "supertape": "^7.0.0"
+          }
+        },
+        "9.2.0": {
+          "dependencies": {
+            "clean-css": "^5.0.1",
+            "css-b64-images": "~0.2.5",
+            "debug": "^4.1.0",
+            "find-up": "^6.1.0",
+            "html-minifier-terser": "^7.1.0",
+            "readjson": "^2.2.2",
+            "simport": "^1.2.0",
+            "terser": "^5.3.2",
+            "try-catch": "^3.0.0",
+            "try-to-catch": "^3.0.0"
+          },
+          "dev_dependencies": {
+            "escover": "^2.1.2",
+            "eslint": "^8.0.0-beta.2",
+            "eslint-plugin-n": "^15.6.1",
+            "eslint-plugin-putout": "^16.3.0",
+            "madrun": "^9.0.3",
+            "putout": "^28.7.0",
+            "supertape": "^8.2.0"
+          }
+        }
+      }
+    }
+  }
+}

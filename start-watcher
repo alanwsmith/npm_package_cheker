@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# For make-json
+# cargo watch -c -x 'test solo -- --nocapture && cargo test -- --nocapture && cargo clippy --bin prep-bad-packages-json && cargo run --bin prep-bad-packages-json'
+
+# For check-package
+cargo watch -c -x 'test solo -- --nocapture && cargo test -- --nocapture && cargo clippy --bin get-package-data && cargo run --bin get-package-data'
+
